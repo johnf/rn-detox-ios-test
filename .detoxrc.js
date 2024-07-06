@@ -12,12 +12,12 @@ module.exports = {
   apps: {
     'ios.debug': {
       type: 'ios.app',
-      binaryPath: 'ios/build/Build/Products/Debug-iphonesimulator/Example.app',
+      binaryPath: 'ios/build/Build/Products/Debug-iphonesimulator/ReactTestApp.app',
       build: 'xcodebuild -workspace ios/Example.xcworkspace -scheme Example -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build'
     },
     'ios.release': {
       type: 'ios.app',
-      binaryPath: 'ios/build/Build/Products/Release-iphonesimulator/Example.app',
+      binaryPath: 'ios/build/Build/Products/Release-iphonesimulator/ReactTestApp.app',
       build: 'xcodebuild -workspace ios/Example.xcworkspace -scheme Example -configuration Release -sdk iphonesimulator -derivedDataPath ios/build'
     },
     'android.debug': {
