@@ -1,1 +1,0 @@
-# rn-detox-ios-test
